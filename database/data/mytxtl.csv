@@ -1,0 +1,14 @@
+biophysical_parameter_id,parameter_key,parameter_value,parameter_units,parameter_source_reference,system_key
+78b0a287-47ef-4cfb-a63f-0ae59bfb9dac,characteristic_transcript_length,1000,nt,,CF_TXTL
+230854e1-3da2-4612-9244-842af7dcbee7,ribosome_concentration,2.3,μM,,CF_TXTL
+6c7ec2ff-032d-42fc-b2c3-b885ef5d44e4,transcription_elongation_rate,25.0,nt/s,,CF_TXTL
+9dc84bc7-66b8-4c68-a42f-38d790edcd95,characteristic_protein_length,330,aa,,CF_TXTL
+eead2a05-77af-4d33-b309-b7fe7c6cbd6b,transcription_saturation_constant,0.0136,μM,,CF_TXTL
+137aec8e-138f-44cd-b9da-ae610aa131cc,translation_saturation_constant,200.0,μM,,CF_TXTL
+5134f0f6-4f2d-4ed8-89d4-01d13d7a4954,protein_half_life_in_hr,70.0,h,BIND:111930,CF_TXTL
+0d73c93b-d0a9-49b4-9bdf-a038200187f8,translation_elongation_rate,16.5,aa/s,,CF_TXTL
+272e70e1-0812-4061-921e-574e68698f33,characteristic_initiation_time_translation,1.5,s,BIND:109525,CF_TXTL
+956a84f1-1e9b-408f-89de-84088dba75c5,mRNA_half_life_in_hr,0.290833,h,,CF_TXTL
+b8fd583c-d574-41e5-9ee8-b9a239003d7e,RNAPII_concentration,0.0675,μM,,CF_TXTL
+e24b2675-cd13-4c62-a4c6-510bdebef0d9,cell_doubling_time,0.0,h,,CF_TXTL
+6a28fbf5-fa06-4646-8bce-875cc795d749,characteristic_initiation_time_transcription,22.0,s,,CF_TXTL

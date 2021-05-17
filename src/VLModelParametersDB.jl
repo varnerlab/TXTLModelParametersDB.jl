@@ -8,5 +8,6 @@ module VLModelParametersDB
 
     # export data store methods -
     export get_biophysical_parameters_for_system
+    export transform
 
 end # module

@@ -4,17 +4,15 @@ function get_biophysical_parameters_for_system(db::SQLite.DB, system_type::Symbo
 
         # ok, write a SELECT statement to all the parameters for this system type -
         system_type_string = String(system_type)
-        sql_string = "SELECT * FROM BIOPHYSICAL_PARAMETERS_TABLE WHERE system_key=\"$(system_type_string)\""
+        sql_string = "SELECT * FROM BIOPHYSICAL_PARAMETERS_TABLE WHERE system_key=\"$(system_type_string)\";"
 
         # execute the call -
         query_result = DBInterface.execute(db, sql_string)
 
-        # turn the result into a table (and return for now so we can see what gets returned)
+        # turn the result into a df table -
         df = DataFrame(query_result)
 
-        # do some checks on the df?
-        # ...
-
+        # return -
         return df
     catch error
         throw(error)

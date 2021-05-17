@@ -28,6 +28,8 @@ const _PATH_TO_DATABASE = joinpath(_PATH_TO_ROOT, "database")
 using DataFrames
 using CSV
 using SQLite
+using UUIDs
+using JSON
 
 # load my codes -
 my_code_array = searchdir(_PATH_TO_BASE, ".jl")
