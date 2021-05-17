@@ -1,4 +1,4 @@
-module TXTLModelParametersDB
+module VLModelParametersDB
 
 greet() = print("Hello World!")
 
