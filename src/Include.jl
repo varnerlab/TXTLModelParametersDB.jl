@@ -19,7 +19,7 @@ end
 searchdir(path,key) = filter(x -> contains(x, key), readdir(path))
 
 # setup project paths -
-const _PATH_TO_ROOT = pwd()
+const _PATH_TO_ROOT = dirname(pathof(@__MODULE__))
 const _PATH_TO_SRC = joinpath(_PATH_TO_ROOT, "src")
 const _PATH_TO_BASE = joinpath(_PATH_TO_SRC, "base")
 const _PATH_TO_DATABASE = joinpath(_PATH_TO_SRC, "database")
