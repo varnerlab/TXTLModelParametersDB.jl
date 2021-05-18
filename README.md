@@ -1,4 +1,6 @@
-# Introduction 
+![CI](https://github.com/varnerlab/CellFreeModelGenerationKit.jl/workflows/CI/badge.svg)
+
+## Introduction 
 `VLModelParametersDB.jl` is a a [Julia](https://julialang.org) package that wraps a [SQLite](https://github.com/JuliaDatabases/SQLite.jl) database holding transcription (TX) and translation (TL) parameters (taken from [BioNumbers](https://bionumbers.hms.harvard.edu/search.aspx) and other sources), and
 enzyme kinetic information taken from the [BRENDA](https://www.brenda-enzymes.org) enzyme database.
 
