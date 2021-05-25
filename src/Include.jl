@@ -36,4 +36,3 @@ _include_my_codes(_PATH_TO_BASE, my_code_array)
 
 # create a database connection -
 const path_to_database_file = joinpath(_PATH_TO_DATABASE, "Parameters.db")
-const PARAMETERS_DB_CONNECTION = SQLite.DB(path_to_database_file)
