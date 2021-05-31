@@ -1,4 +1,3 @@
-biophysical_parameter_id,parameter_key,parameter_value,parameter_units,parameter_source_reference,system_key
 78b0a287-47ef-4cfb-a63f-0ae59bfb9dac,characteristic_transcript_length,1000,nt,,CF_TXTL
 230854e1-3da2-4612-9244-842af7dcbee7,ribosome_concentration,2.3,μM,,CF_TXTL
 6c7ec2ff-032d-42fc-b2c3-b885ef5d44e4,transcription_elongation_rate,25.0,nt/s,,CF_TXTL

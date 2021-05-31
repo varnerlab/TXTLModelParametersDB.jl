@@ -67,3 +67,65 @@ function get_biophysical_parameters_dictionary_for_system(system_type::Symbol)::
         rethrow(error)
     end
 end
+
+function value(parameter_dictionary::Dict{String,NamedTuple},
+    key::String)::Union{String, Float64, Int64, Missing, Nothing}
+
+
+    try
+
+        # get the record tuple -
+        record_tuple = parameter_dictionary[key]
+        value = record_tuple.parameter_value
+
+        # cast -
+        if (tryparse(Float64, value) !== nothing)
+            return parse(Float64, value)
+        else
+            return value
+        end
+        
+    catch error
+        rethrow(error)
+    end
+end
+
+function units(parameter_dictionary::Dict{String,NamedTuple},
+    key::String)::Union{String, Float64, Int64, Missing, Nothing}
+
+    try
+        
+        # get the record tuple -
+        record_tuple = parameter_dictionary[key]
+        value = record_tuple.parameter_units
+
+        # return -
+        return value
+
+    catch error
+        rethrow(error)
+    end
+end
+
+function reference(parameter_dictionary::Dict{String,NamedTuple},
+    key::String)::Union{String, Float64, Int64, Missing, Nothing}
+
+    try
+
+        # get the record tuple -
+        record_tuple = parameter_dictionary[key]
+        value = record_tuple.parameter_source_reference
+
+        # check: isempty -
+        if (isempty(value) == true)
+            return nothing
+        else
+            return value
+        end
+
+    catch error
+        rethrow(error)
+    end
+end
+
+
