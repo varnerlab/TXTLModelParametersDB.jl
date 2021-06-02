@@ -5,19 +5,24 @@
   },
   "biophysical_constants": {
     "mass_of_single_cell": {
-      "value": "2.8e-13",
+      "value": "1.0e-9",
       "units": "g/cell",
-      "bionumbers_reference": "BIND:103904"
+      "bionumbers_reference": "BIND:111609"
+    },
+    "cell_diameter": {
+      "value": "12.4",
+      "units": "μm",
+      "bionumbers_reference": "BIND:106737"
     },
     "copies_of_rnapII_per_cell": {
-      "value": "4600",
+      "value": "80200",
       "units": "copies/cell",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:112321"
     },
     "copies_of_ribosome_per_cell": {
-      "value": "50000",
+      "value": "3.3e6",
       "units": "copies/cell",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:107552"
     },
     "copies_of_basal_TF_per_cell": {
       "value": "5700",
@@ -25,19 +30,19 @@
       "bionumbers_reference": ""
     },
     "mRNA_half_life_transcription_factor": {
-      "value": "0.083",
+      "value": "2.0",
       "units": "h",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:101091"
     },
     "average_mRNA_half_life": {
-      "value": "0.083",
+      "value": "10.0",
       "units": "h",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:104747"
     },
     "average_protein_half_life": {
-      "value": "70",
+      "value": "6.9",
       "units": "h",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:106875"
     },
     "average_infrastructure_half_life": {
       "value": "300",
@@ -45,19 +50,19 @@
       "bionumbers_reference": ""
     },
     "doubling_time_cell": {
-      "value": "0.66",
+      "value": "19.5",
       "units": "h",
       "bionumbers_reference": ""
     },
     "translation_elongation_rate": {
-      "value": "16.5",
+      "value": "5.0",
       "units": "aa/s",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:104598"
     },
     "transcription_elongation_rate": {
-      "value": "60.0",
+      "value": "63.16",
       "units": "nt/s",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:105566"
     },
     "transcription_initiation_time_constant": {
       "value": "400",
@@ -65,22 +70,22 @@
       "bionumbers_reference": ""
     },
     "average_transcript_length": {
-      "value": "1000",
+      "value": "15000",
       "units": "nt",
       "bionumbers_reference": ""
     },
     "average_protein_length": {
-      "value": "330",
+      "value": "5000",
       "units": "aa",
       "bionumbers_reference": ""
     },
     "fraction_nucleus": {
-      "value": "0",
+      "value": "0.49",
       "units": "",
-      "bionumbers_reference": ""
+      "bionumbers_reference": "BIND:106737"
     },
     "average_gene_copies_per_cell": {
-      "value": "2",
+      "value": "2.0",
       "units": "copies/cell",
       "bionumbers_reference": ""
     },

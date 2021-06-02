@@ -9,11 +9,11 @@ c4362d99-ef41-4d2e-ab3a-cebdc45966cb,average_polysome_number,4,copies/transcript
 0b395929-cfcc-4c37-a5c1-f09e193e72e9,transcription_initiation_time_constant,400,s,,BACTERIA
 8dbd292c-865e-4b0a-ad22-5edfedb09a0b,average_protein_length,330,aa,,BACTERIA
 fc0928fa-bae0-43a1-a1d2-700d216c0a97,translation_elongation_rate,16.5,aa/s,,BACTERIA
-79d64979-c8c3-4a0e-9df7-2c2c9839a31c,avergae_protein_half_life,70,h,,BACTERIA
+79d64979-c8c3-4a0e-9df7-2c2c9839a31c,average_protein_half_life,70,h,,BACTERIA
 63c1a0d9-e2d7-4b75-8b20-49896faa9852,default_turnover_number,10,1/s,,BACTERIA
 2455d926-f2ae-41bf-8b29-ca2a35579518,fraction_nucleus,0,,,BACTERIA
 a927b334-88da-4184-9145-149774305b2c,mRNA_half_life_transcription_factor,0.083,h,,BACTERIA
 f1643878-5261-4b67-bd92-a0b7ed3b3083,average_transcript_length,1000,nt,,BACTERIA
 eb568614-c533-42e4-b858-7729f8cfb381,copies_of_ribosome_per_cell,50000,copies/cell,,BACTERIA
 9c563013-d9ee-4048-9f95-198e3ae02db6,average_mRNA_half_life,0.083,h,,BACTERIA
-b1a13e6d-18fd-4b6a-ba27-7baee7aa5a15,avergae_infrastructure_half_life,300,h,,BACTERIA
+b1a13e6d-18fd-4b6a-ba27-7baee7aa5a15,average_infrastructure_half_life,300,h,,BACTERIA

@@ -1,4 +1,4 @@
-CREATE TABLE  (
+CREATE TABLE BIOPHYSICAL_PARAMETERS_TABLE  (
     biophysical_parameter_id PRIMARY KEY NOT NULL,
     parameter_key VARCHAR(255) NOT NULL,
     parameter_value VARCHAR(255) NOT NULL,
