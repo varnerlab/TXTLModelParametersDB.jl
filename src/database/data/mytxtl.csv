@@ -11,3 +11,4 @@ eead2a05-77af-4d33-b309-b7fe7c6cbd6b,transcription_saturation_constant,0.0136,μ
 b8fd583c-d574-41e5-9ee8-b9a239003d7e,RNAPII_concentration,0.0675,μM,,CF_TXTL
 e24b2675-cd13-4c62-a4c6-510bdebef0d9,cell_doubling_time,0.0,h,,CF_TXTL
 6a28fbf5-fa06-4646-8bce-875cc795d749,characteristic_initiation_time_transcription,22.0,s,,CF_TXTL
+e8ac21ce-1974-4388-b2b7-bedae57b2abf,half_life_translation_capacity,4.03,1/h,PMID:33324619,CF_TXTL

@@ -79,6 +79,12 @@
         "value":"330",
         "units":"aa",
         "bionumbers_reference":""
+      },
+
+      "half_life_translation_capacity":{
+        "value":"4.03",
+        "units":"1/h",
+        "bionumbers_reference":"PMID:33324619"
       }
     }
   }
