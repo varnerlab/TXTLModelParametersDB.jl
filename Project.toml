@@ -1,7 +1,7 @@
 name = "VLModelParametersDB"
 uuid = "bcdee0c5-44bd-43b1-97c6-4f28e9bd14b3"
 authors = ["Varnerlab <jdv27@cornell.edu>"]
-version = "0.2.3"
+version = "0.2.4"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"

@@ -69,6 +69,11 @@ function get_biophysical_parameters_dictionary_for_system(system_type::Symbol)::
 end
 
 function value(parameter_dictionary::Dict{String,NamedTuple},
+    key::Symbol)::Union{String, Float64, Int64, Missing, Nothing}
+    return value(parameter_dictionary,string(key))
+end
+
+function value(parameter_dictionary::Dict{String,NamedTuple},
     key::String)::Union{String, Float64, Int64, Missing, Nothing}
 
 
@@ -91,6 +96,11 @@ function value(parameter_dictionary::Dict{String,NamedTuple},
 end
 
 function units(parameter_dictionary::Dict{String,NamedTuple},
+    key::Symbol)::Union{String, Float64, Int64, Missing, Nothing}
+    return units(parameter_dictionary, string(key))
+end
+
+function units(parameter_dictionary::Dict{String,NamedTuple},
     key::String)::Union{String, Float64, Int64, Missing, Nothing}
 
     try
@@ -105,6 +115,11 @@ function units(parameter_dictionary::Dict{String,NamedTuple},
     catch error
         rethrow(error)
     end
+end
+
+function reference(parameter_dictionary::Dict{String,NamedTuple},
+    key::Symbol)::Union{String, Float64, Int64, Missing, Nothing}
+    return reference(parameter_dictionary,string(key))
 end
 
 function reference(parameter_dictionary::Dict{String,NamedTuple},
